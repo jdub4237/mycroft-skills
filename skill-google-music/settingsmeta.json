@@ -1,0 +1,30 @@
+{
+    "name": "Google Play Music Skill",
+    "skillMetadata": {
+        "sections": [
+            {
+                "name": "Google Account",
+                "fields": [
+                    {
+                        "type": "label",
+                        "value": "",
+                        "label": "Provide your Google username/password"
+                    },
+                    {
+                        "name": "user",
+                        "type": "text",
+                        "label": "Username",
+                        "value": "",
+                        "placeholder": "Google username"
+                    },
+                    {
+                        "name": "password",
+                        "type": "password",
+                        "label": "Password",
+                        "value": ""
+                    }
+                ]
+            }
+        ]
+    }
+}

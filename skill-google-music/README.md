@@ -4,7 +4,7 @@ This skill allows you to play music with Google Play Music
 ## Description 
 **This Skill is not made by nor endorsed by Google.**
 
-This skill is based on [gmusicapi](https://github.com/simon-weber/gmusicapi) by [Simon Weber](https://simon.codes) and the implementation of [geemusic](https://github.com/stevenleeg/geemusic) by [Steve Gattuso](https://github.com/stevenleeg) for Amazon Alexa.
+This skill is based on [gmusicapi](https://github.com/simon-weber/gmusicapi) by [Simon Weber](https://simon.codes) and the implementation of [geemusic](https://github.com/stevenleeg/geemusic) by [Steve Gattuso](https://github.com/stevenleeg) for Amazon Alexa. The Mycroft implementation borrowed elements from [spotify-skill](https://github.com/forslund/spotify-skill) by [Åke Forslund].
 
 Using this skill allows you to stream music from Google Play Music.  The underlying API, while not official, has been around since 2012 and is maintained well.
 
