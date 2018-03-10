@@ -1,0 +1,8 @@
+Next play the song {song_name}
+Next play song {song_name}
+Next play the song {song_name} by {artist_name}
+Next play song {song_name} by {artist_name}
+Next play {song_name}
+Next play {song_name} by {artist_name}
+Queue {song_name}
+Queue {song_name} by {artist_name}

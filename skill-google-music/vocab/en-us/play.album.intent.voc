@@ -1,0 +1,5 @@
+Play the album {album_name}
+Play album {album_name}
+Play the album {album_name} by {artist_name}
+Play album {album_name} by {artist_name}
+Play songs from the album {album_name} by {artist_name}

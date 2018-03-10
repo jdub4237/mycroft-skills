@@ -1,0 +1,6 @@
+Play artist {artist_name}
+Play songs by {artist_name}
+Play top songs by {artist_name}
+Play top tracks by {artist_name}
+Play music by {artist_name}
+Play tracks by {artist_name}
