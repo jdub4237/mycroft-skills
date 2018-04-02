@@ -23,22 +23,8 @@ class GooglePlayMusicSkill(MycroftSkill):
 
     # The constructor of the skill, which calls MycroftSkill's constructor
     def __init__(self):
-        super(TemplateSkill, self).__init__(name="TemplateSkill")
-        
-        # Initialize working variables used within the skill.
-        self.count = 0
-
-    # The "handle_xxxx_intent" function is triggered by Mycroft when the
-    # skill's intent is matched.  The intent is defined by the IntentBuilder()
-    # pieces, and is triggered when the user's utterance matches the pattern
-    # defined by the keywords.  In this case, the match occurs when one word
-    # is found from each of the files:
-    #    vocab/en-us/Hello.voc
-    #    vocab/en-us/World.voc
-    # In this example that means it would match on utterances like:
-    #   'Hello world'
-    #   'Howdy you great big world'
-    #   'Greetings planet earth'
+        super(GooglePlayMusicSkill, self).__init__(name="GooglePlayMusicSkill")
+                
     @intent_handler(IntentBuilder("").require("Hello").require("World"))
     def handle_hello_world_intent(self, message):
         # In this case, respond by simply speaking a canned response.
